@@ -5,7 +5,7 @@ This project reads JSON-encoded shares of a secret, converts each share from its
 and then performs Lagrange interpolation to recover the original secret.
 
 ## Prerequisites  
-- A C++17-capable compiler (e.g. g++, clang++)  
+- A C++11-capable compiler (e.g. g++, clang++)  
 - [nlohmann/json](https://github.com/nlohmann/json) header only library  
 
 ## Build  
